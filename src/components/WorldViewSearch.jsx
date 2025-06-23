@@ -381,6 +381,8 @@ export default function WorldViewSearch() {
               </div>
             </div>
 
+            <div className='p-4 bg-white shadow-2xl rounded-3xl py-6'>Summary :- <br />{searchResults.summary}</div>
+
             {/* Top Sources */}
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Top Sources</h3>
